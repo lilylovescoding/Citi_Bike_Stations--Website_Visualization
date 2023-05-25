@@ -11,18 +11,15 @@
      <div id="displayInfo">
      		<div>
 					<a href="index.html" class="next">HOME</a>
-					<a href="page2.html" class="next">INTRO</a>
+					<!-- <a href="page2.html" class="next">INTRO</a> -->
 					<a href="page3.html" class="next">EXPLORE</a>
 					<a href="page4.html" class="next">RESULT</a>
 					<hr>
 
 					<h1>Calculated Average Daily Self-balance Level of Citi Bike Stations in September 2019 </h1>
 
-
 	        <p><b>What can you do on this page?</b><br/>You can view how the average daily unbalanced stations and the average daily balanced stations distribute</p>
-
 					<p><b>How can you do that?</b> <br/>choose the one of the three button below</p>
-
 					<p></p>
 
 				<form>
@@ -37,19 +34,14 @@
 				<p><b>How do we calculated average daily self-balance level</b><br/>Briefly speaking, first，since it is not possible to obtain the number of bicycles stored at each bicycle station, we estimated this value.
 					Second, based on the calculated number of bicycles stored at each station, we calculat the daily self-balance level of each station. Then average the daily self-balance level of the September 2019 is calculated to represent the
 					Calculated Average Daily Self-balance Level of Citi Bike Stations. If you want to know more --->>>>><br/>
-				<a href="page2.html" class="method">Check our the end of 'INTRO' page</a>
-
+				<!-- <a href="page2.html" class="method">Check our the end of 'INTRO' page</a> -->
 
      		</div>
 				<div id="displayWrapper">
  					<div><span id="photoNum">0</span> stations shown in map</div>
  			</div>
 
-
      </div>
-
-
-
 </div>
 
 <!-- The Javascript from external websites gets Loaded Here -->
@@ -65,8 +57,6 @@
 	var dataArray = [];
 	var infowindow = new google.maps.InfoWindow({maxWidth: 300});
 	var port = 8899;
-
-
 
 	$(document).ready(function() {
 
@@ -217,13 +207,9 @@
 								}
 		google.maps.event.addDomListener(window, 'load', initialize);
 
-
-
-
 	});
 
 	//  ******************* FUNCTIONS TO USE FOR THE MAP YOU DON"T NEED TO EDIT ANYTHING BELOW THIS LINE **************************************************
-
 	function createMarkers(){
 		var marker = new google.maps.Marker({
   			position: latLng
@@ -246,7 +232,5 @@
 
 
 </script>
-
-
 </body>
 </html>
